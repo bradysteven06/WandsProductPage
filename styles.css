@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    font-family: 'Georgia', serif;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff8f0;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#header-img {
+    width: 120px;
+  }
+  
+#nav-bar {
+display: flex;
+gap: 1rem;
+}
+
+.nav-link {
+text-decoration: none;
+color: #3e2c23;
+font-weight: bold;
+}
